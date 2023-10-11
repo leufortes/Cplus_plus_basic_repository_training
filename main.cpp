@@ -21,15 +21,19 @@ int main ()
 		cout << endl;
 		cout << "TEL: 11972183697" << endl;
 		cout << endl;
+		cout << "Tks for look my user proffile!" << endl;
+		cout << endl;
 	}
-	if (num > 1) { 
-	     
+	else{
+	 
 	    cout << endl; 
 	    cout << "The number one key!" << endl;
 	    cout << endl; 
 	    
 	    
 	}
+	
+	cout << "Tks for look my user proffile!" << endl;
 	
 	system ("pause");
 	return 0;
