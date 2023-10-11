@@ -49,7 +49,6 @@ int main ()
 	cout << "Now, press 3 for a goodbye!" << endl;
 	int good;
 	cin >> good;
-	
 	if (good = 3){
 		
 		cout << endl;
