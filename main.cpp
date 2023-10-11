@@ -8,7 +8,7 @@ int main ()
 {
 	cout << "--Welcome to my first CSV--" << endl;
 	cout << endl;
-	cout << "Press the number one key for personal informations:" << endl;
+	cout << "Press the 1 for personal informations:" << endl;
 	int num;
 	cin >> num;
 	
@@ -27,13 +27,12 @@ int main ()
 	else{
 	 
 	    cout << endl; 
-	    cout << "The number one key!" << endl;
-	    cout << endl; 
-	    
-	    
+	    cout << "The number 1!" << endl;
+	    cout << endl; 	    
 	}
 	
-	cout << "Good, press the number two key for a while condition: " << endl;
+	cout << "Good, press 2 for a while condition: " << endl;
+	
 	int num2;
 	cin >> num2;
 	
@@ -46,9 +45,23 @@ int main ()
 	}
 	}
 	
+	cout << endl;
+	cout << "Now, press 3 for a goodbye!" << endl;
+	int good;
+	cin >> good;
 	
-	
-	
-	system ("pause");
+	if (good = 3){
+		
+		cout << endl;
+		cout << "Thanks for test my first code and my first test of CSV! See you later" << endl;
+		cout << endl;
+		cout << "GOODBYE! :)" << endl;
+	}
+	else{
+		cout << "You don´t wanna to say goodbye?" << endl;
+		cout << endl;
+		cout << "Please reset and press the number 3! " << endl;
+	}
 	return 0;
+	system ("pause");
 }
