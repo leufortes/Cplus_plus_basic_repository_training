@@ -32,9 +32,6 @@ int main ()
 	    
 	    
 	}
-	
-	cout << "Tks for look my user proffile!" << endl;
-	
 	system ("pause");
 	return 0;
 }
