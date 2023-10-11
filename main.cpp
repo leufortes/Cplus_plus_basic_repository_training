@@ -32,6 +32,23 @@ int main ()
 	    
 	    
 	}
+	
+	cout << "Good, press the number two key for a while condition: " << endl;
+	int num2;
+	cin >> num2;
+	
+	if (num2 = 2){
+		int x = 0;
+		while (x <=10)
+		{
+		
+			cout << "While condition number: " << x++ << endl;
+	}
+	}
+	
+	
+	
+	
 	system ("pause");
 	return 0;
 }
