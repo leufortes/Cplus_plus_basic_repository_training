@@ -9,10 +9,11 @@ int main ()
 	cout << "--Welcome to my first CSV--" << endl;
 	cout << endl;
 	cout << "Press the 1 for personal informations:" << endl;
-	int num;
-	cin >> num;
 	
-	if (num == 1)
+	int num1;
+	cin >> num1;
+	
+	if (num1 == 1)
 	{
 		cout << endl;
 		cout << "GITHUB PROFILE: leufortes" << endl;
@@ -61,6 +62,8 @@ int main ()
 		cout << endl;
 		cout << "Please reset and press the number 3! " << endl;
 	}
+	
+	
 	return 0;
 	system ("pause");
 }
