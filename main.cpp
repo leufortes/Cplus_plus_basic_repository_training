@@ -60,7 +60,7 @@ int main ()
 	else{
 		cout << "You don´t wanna to say goodbye?" << endl;
 		cout << endl;
-		cout << "Please reset and press the number 3! " << endl;
+		cout << "Please reset and press the number 3 ! " << endl;
 	}
 	
 	
